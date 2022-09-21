@@ -1,14 +1,70 @@
-body{
+body {
     background-color: rgb(255, 254, 223);
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     text-align: center;
     font-family: sans-serif;
 }
 
-.titulo{
+
+/* Fonts */
+
+.titulo {
     margin-top: 5rem;
 }
 
-.logo{
-    width: 3%;
-    
+.subtitulo {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
 }
+
+.logo {
+    width: 3%;
+
+}
+
+
+/* Sección registro */
+
+.destinos {
+    padding: 3rem;
+    background-color: rgba(240, 248, 255, 0.753);
+    border-style: none;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.destinos__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.destinos__lista--elemento {
+    padding: 1rem;
+}
+
+img {
+    width: 70%;
+}
+
+.btn {
+    background-color: rgb(0, 140, 255);
+    font-family: sans-serif;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 0.7rem;
+}
+
+.red {
+    background-color: red;
+}
+
+/* Index productos */
